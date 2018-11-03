@@ -18,7 +18,7 @@ public class CodeBreakerTest {
 	@Test
 	public void guessOneFailAndThreeMatch(){
 		result = code.guess("0234");
-		assertEquals("xxxxxx", result);
+		assertEquals("xxx", result);
 	}
 	
 	@Test
